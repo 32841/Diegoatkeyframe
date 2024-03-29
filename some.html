@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="some.css">
+</head>
+
+<body>
+    <!-- Inline Styling -->
+    <div style="background: red; width: 100%; text-align: center;padding: 5px 0;">
+        <button class='toggleButton' onclick='toggleTransition()'>Toggle</button>
+        <div style="width: 200px;
+    font-size: 50px; display:inline-block" class="box">navbar</div>
+        <script>
+            var boxOne = document.getElementsByClassName('box')[0];
+            var running = false;
+
+            var toggleTransition = function () {
+                if (!running) {
+                    boxOne.classList.add('horizTranslate');
+                } else {
+                    boxOne.classList.remove('horizTranslate');
+                }
+
+                running = !running;
+            }
+        </script>
+
+        <div style="display:inline-block; width:80px; height:80px; background: rgb(0, 0, 0)" class=left-arm></div>
+    </div>
+    <div style="background: green; width: 100%; text-align: center; align-items: center;padding: 200px 0;">
+        <button class='toggleButton1' onclick='toggleTransition1()'>Toggle</button>
+        <div style="display:inline-block;font-size: 50px;" class="box1">Place For Introdctory Image/Video</div>
+        <script>
+            var boxOne1 = document.getElementsByClassName('box1')[0];
+            var running1 = false;
+
+            var toggleTransition1 = function () {
+                if (!running1) {
+                    boxOne1.classList.add('horizTranslate1');
+                } else {
+                    boxOne1.classList.remove('horizTranslate1');
+                }
+
+                running1 = !running1;
+            }
+        </script>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: white"
+            class=right-arm></div>
+    </div>
+    <button class='toggleButton7' onclick='toggleTransition7()'>Toggle</button>
+    <div style="background: blue; width: 50%; float: right; text-align: center;padding: 200px 0;">
+        <div style="display:inline-block;
+    font-size: 50px;" class="box">Section 2</div>
+
+        <script>
+
+            var boxOne7 = document.getElementsByClassName('box7')[0];
+            var running7 = false;
+
+            var toggleTransition7 = function () {
+                if (!running7) {
+                    boxOne7.classList.add('horizTranslate7');
+                } else {
+                    boxOne7.classList.remove('horizTranslate7');
+                }
+
+                running7 = !running7;
+            }
+        </script>
+
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: yellow"
+            class=translateY1></div>
+    </div>
+    <button class='toggleButton2' onclick='toggleTransition2()'>Toggle</button>
+    <div style="background: red; width: 50%; text-align: center;padding: 200px 0;">
+        <div style="display:inline-block;
+    font-size: 50px;">Section 3</div>
+        <div class="wayoutside5">
+            <div class="outside5">
+                <div class="box25"></div>
+                <div class="box5">
+                    <div class="box35">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script>
+        var boxOne5 = document.getElementsByClassName('box35')[0];
+        var boxTwo5 = document.getElementsByClassName('box35')[1];
+
+        var running5 = false;
+
+        var toggleTransition2 = function () {
+            if (!running5) {
+                boxOne5.classList.add('horizTranslate5');
+                boxTwo5.classList.add('horizTranslate5');
+            } else {
+                boxOne5.classList.remove('horizTranslate5');
+                boxTwo5.classList.remove('horizTranslate5');
+
+            }
+
+            running5 = !running5;
+        }
+
+    </script>
+    <div style="display:inline-block;align-items: center; width:80px; height:80px; background: purple" class="rotateY"
+        class="boxx"></div>
+    </div>
+
+    <button class='toggleButtonl' onclick='toggleTransitionl()'>Toggle</button>
+    <div style="background: orange; width: 100%; text-align: center;padding: 100px 0;" class="box">
+        <div style="display:inline-block; font-size: 50px;">Footer</div>
+        <script>
+            var boxOnel = document.getElementsByClassName('boxl')[0];
+            var runningl = false;
+
+            var toggleTransitionl = function () {
+                if (!runningl) {
+                    boxOnel.classList.add('horizTranslatel');
+                } else {
+                    boxOnel.classList.remove('horizTranslatel');
+                }
+
+                runningl = !runningl;
+            }
+        </script>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: green"
+            class="translateZ"></div>
+    </div>
+    <div style="background: red; width: 100%; text-align: center;padding: 5px 0;">
+        <button class='toggleButtont' onclick='toggleTransitiont()'>Toggle</button>
+        <div style="display:inline-block;
+    font-size: 50px;" class="bot">navbar</div>
+        <script>
+            var boxOnet = document.getElementsByClassName('bot')[0];
+            var runningt = false;
+
+            var toggleTransitiont = function () {
+                if (!runningt) {
+                    boxOnet.classList.add('horizTranslatet');
+                } else {
+                    boxOnet.classList.remove('horizTranslatet');
+                }
+
+                runningt = !runningt;
+            }
+
+        </script>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: blue" class= "boxs" class="rotate6" ></div>
+    </div>
+    <div style="background: green; width: 100%; text-align: center;padding: 200px 0;">
+        <div style="display:inline-block;font-size: 50px;">Place For Introdctory Image/Video</div>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: black"></div>
+    </div>
+    <div style="background: blue; width: 50%; float: right; text-align: center;padding: 200px 0;">
+        <div style="display:inline-block;
+    font-size: 50px;">Section 2</div>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: red"></div>
+    </div>
+    <div style="background: red; width: 50%; text-align: center;padding: 200px 0;">
+        <div style="display:inline-block;
+    font-size: 50px;">Section 3</div>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: white"></div>
+    </div>
+    <div style="background: orange; width: 100%; text-align: center;padding: 100px 0;">
+        <div style="display:inline-block; font-size: 50px;">Footer</div>
+        <div style="display:inline-block;align-items: center; width:80px; height:80px; background: green"></div>
+    </div>
+</body>
+
+</html>
